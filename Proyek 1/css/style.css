@@ -1,0 +1,357 @@
+/* Reset beberapa margin dan padding default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gaya untuk body */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+nav {
+    background: rgb(0, 0, 0);
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; /* Tambahkan ini */
+    width: 100%; /* Pastikan navbar menutupi seluruh lebar halaman */
+    top: 0; /* Atur posisi atas menjadi 0 */
+    z-index: 999; /* Pastikan navbar muncul di atas elemen lain */
+}
+
+/* Sisipkan padding atas yang setara dengan tinggi navbar untuk menghindari konten di bawahnya terpotong */
+body {
+    padding-top: 70px; /* Sesuaikan dengan tinggi navbar Anda */
+}
+
+.logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #ff7f50;
+}
+
+
+/* Gaya untuk navbar */
+/* nav {
+    background: rgb(0, 0, 0);
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #ff7f50;
+} */
+
+/* Gaya untuk konten utama */
+/* .home {
+    background-color: #fff;
+    padding: 150px 0;
+    text-align: ;
+} */
+
+/* .home h1 {
+    font-size: 48px;
+    margin-bottom: 0;
+}
+
+.home h3 {
+    font-size: 24px;
+    color: #555;
+} */
+
+/* .home h1 h3{
+    align-items: center;
+    margin-bottom: 156px;
+    
+} */
+.home {
+    background-color: #fff;
+    padding: 140px ;
+    margin: 0px;
+    text-align: center;
+    margin-bottom: 500px;
+}
+
+.home h1 {
+    font-size: 48px;
+    margin-bottom: 0;
+}
+
+.home h3 {
+    font-size: 24px;
+    color: #555;
+    margin-top: 0; /* Menghapus margin atas */
+    
+}
+
+.home h1,
+.home h3 {
+    margin-left: 0%;/* Memastikan elemen h1 dan h3 tetap dalam satu baris */
+}
+
+
+/* Gaya untuk footer */
+footer {
+    background: rgb(0, 0, 0);
+    color: #fff;
+    padding: 20px 0;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+/* Gaya untuk teks dalam footer */
+footer p {
+    font-size: 14px;
+}
+
+/* Gaya untuk container about */
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center; /* Center text horizontally */
+}
+
+.about h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about img {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column; /* Stack child elements vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center; /* Center text horizontally */
+}
+
+
+.about p {
+    font-size: 16px;
+    margin:20px 0 ;
+    text-align: center;
+    
+}
+
+.about table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.about table, .about table td, .about table th {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.about table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.skill {
+    text-align: center;
+    margin-top: 140px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    /* padding-top: 50px; */
+}
+
+.skill-icon {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.skill-icon:hover {
+    box-shadow: 0 0 10px 5px #FFA500, 0 0 20px 10px #00BFFF;
+    transform: scale(1.1);
+}
+
+.skill{
+    margin-bottom: 95px;
+}
+.home{
+    margin-bottom: 98px;
+}
+
+.Galerry{
+    margin-bottom: 55px;
+}
+
+.Galerry h1{
+    padding-top: 100px;
+}
+
+.Galerry img {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 15%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: opacity 0.3s ease; /* Transisi opacity selama 0.3 detik */
+}
+
+.Galerry img:hover {
+    opacity: 0.7; /* Mengurangi opacity saat di-hover */
+}
+
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    font-size: 2em; /* Ukuran ikon */
+    color: rgb(156, 14, 217); /* Warna ikon (sesuaikan dengan preferensi Anda) */
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: rgb(98, 107, 233); 
+}
+
+.contact {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+/* form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label, input, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 150px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+} */
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label, input, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 0px; /* Mengurangi jarak antar elemen */
+    font-size: 14px;
+}
+
+input, textarea {
+    padding: 1px;
+    font-size: 14px;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="submit"] {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+input[type="submit"]:hover {
+    background-image: linear-gradient(45deg, #00ff00, #33ff33, #00ff00);
+    animation: neon 1.5s infinite alternate;
+}
+
+@keyframes neon {
+    to {
+        box-shadow: 0 0 2px #00ff00, 0 0 4px #00ff00, 0 0 6px #00ff00, 0 0 8px #00ff00, 0 0 10px #00ff00, 0 0 12px #00ff00, 0 0 14px #00ff00;
+    }
+}
